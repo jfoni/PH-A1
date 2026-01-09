@@ -207,3 +207,105 @@ nav .list-container h4 {
     color: #627382;
     margin-bottom: 30px;
 }
+
+#solution {
+    max-width: 1350px;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+#solution .solution-box h6 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    width: 700px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+#solution .solution-box h1 {
+    font-size: 45px;
+    color: #001931;
+    font-weight: bold;
+    width: 700px;
+    margin-bottom: 16px;
+}
+
+#solution .solution-box p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-weight: 400;
+    max-width: 470px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.solution-box li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.join {
+    background-color: #F7F6F2;
+    padding: 80px 20px;
+    margin: 60px auto;
+    max-width: 1360px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.join-container h1 {
+    font-size: 40px;
+    color: #001931;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.join-container p {
+    font-size: 16px;
+    color: #627382;
+    max-width: 600px;
+    margin: 0 auto 32px auto;
+    line-height: 1.5;
+}
+
+.join-container .footer-text {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #627382;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.join-container .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.join .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.join .btn img {
+    width: 16px;
+    height: 16px;
+    order: 2;
+}
